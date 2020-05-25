@@ -20772,3 +20772,7 @@ svg {
     font-size: 1.4em;
   }
 }
+
+.card-body{
+    height: 251px !important;
+}
