@@ -1,7 +1,7 @@
-function requireAll(r) {
-  r.keys().forEach(r);
-}
-requireAll(require.context("./libs/", true, /\.js$/));
+import "jquery";
+import "popper.js";
+import "./node_modules/bootstrap/dist/css/bootstrap.css";
+import "./node_modules/bootstrap/dist/js/bootstrap";
 
 function openUrl(url) {
   window.open(url, "_blank");

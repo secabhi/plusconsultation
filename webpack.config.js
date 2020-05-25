@@ -13,7 +13,6 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: "./*.html", to: __dirname + "/dist" },
-        { from: "./libs", to: __dirname + "/dist/libs" },
         { from: "./images", to: __dirname + "/dist/images" },
         { from: "./style.css", to: __dirname + "/dist/style.css" },
       ],
