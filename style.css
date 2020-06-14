@@ -20702,8 +20702,7 @@ section.team-section .avatar img.rounded-circle {
 @media(max-width:576px){
   .display-4 {
     margin-bottom: 10px;
-    font-size: 1.8rem;
-    margin-left: -18px;
+    font-size: 1.8rem !important;
   }
 }
 .list-group-item {
